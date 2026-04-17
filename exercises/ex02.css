@@ -1,0 +1,25 @@
+p { color : orange; font-size: large; }
+
+li { text-align: center; }
+
+html { font-family: "Mystery Quest"; background-color: pink; }
+
+
+.highlight_01 {
+    background: #eff50a;
+}
+
+.highlight_02 {
+    background: #8d08f2;
+}
+
+span {background-color: azure}
+
+#sample {color: darkblue}
+
+#pink-huge {width: 150px}
+
+.test-div {
+    background: darkorchid; 
+    margin: 30px; 
+    padding: 40px;}

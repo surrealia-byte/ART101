@@ -1,7 +1,14 @@
 body {
-  background-image: url("wp11968865-3953044907.jpg");
+  background-image: url("himawari.jpg");
 }
 body { background-size: 1500px;}
 img {
     width: 300px;
+}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: white;
+    padding: 30px;
 }

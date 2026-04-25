@@ -6,9 +6,24 @@ img {
     width: 300px;
 }
 
-#page {
-    max-width: 900px;
-    margin: 0 auto 0 auto;
+p { font-size: large; }
+
+#below {
+    max-width: 300px;
+    margin: 9 auto 0 auto;
     background: white;
-    padding: 30px;
+    padding: 20px;
 }
+
+.top-section {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+
+p {
+    font-size: 150%;
+    line-height: 1.5;
+}
+

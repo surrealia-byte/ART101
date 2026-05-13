@@ -2,6 +2,8 @@ let environmentTitle = "Himawari";
 
 let environmentElements = ["sunflowers", "clovers", "blue sky", "sunshine"];
 
+
+
 let mainEntity = {
     aesthetic: "picture book",
     description: "fresh and bright",

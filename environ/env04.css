@@ -45,6 +45,8 @@ p {
     position: absolute;
     top: 200px;
     left: 750px;
+    font-family: "Mystery Quest";
+    color: white
 }
 
 #aesthetic {
@@ -53,6 +55,8 @@ p {
     padding: 10px;
     position: relative;
     top: 200px;
+    font-family: "Mystery Quest";
+    color: darkblue;
 }
 
 #element-output {
@@ -62,3 +66,4 @@ p {
     top: 500px;
     left: 750px;
 }
+

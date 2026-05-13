@@ -15,18 +15,13 @@ $("#details").click(function() {
         + "</p>")
 });
 
-let counter = -1;
+let counter = 0;
 
 $("#aesthetic").click(function(){
-    let stringcode = environmentElements.get(counter)
-    
-    counter = -1
-    if (counter > 5) {
+    if (counter > 3) {
         counter = 0
     }
-    let newStringcode = environmentElements.get(counter)
-    
-    counter = counter + 1;
     $("#element-output").html(environmentElements[counter]);
+    counter = counter + 1;
 }
 );

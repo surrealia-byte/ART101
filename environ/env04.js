@@ -10,6 +10,7 @@ let mainEntity = {
     favoriteElement: environmentElements[0]
 };
 
+
 $("#details").click(function() {
     
     $("#environment-output").html("<p> Name: " + environmentTitle + "</p>" + "<p>Aesthetic: "
@@ -19,10 +20,12 @@ $("#details").click(function() {
 
 let counter = 0;
 
+//click function makes "Elements" do something when clicked
 $("#aesthetic").click(function(){
     if (counter > 3) {
         counter = 0
     }
+    //makes sure something is added every time it is clicked
     $("#element-output").html(environmentElements[counter]);
     counter = counter + 1;
 }

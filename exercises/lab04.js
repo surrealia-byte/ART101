@@ -5,8 +5,13 @@ let buttonCreature = {
     favoriteFood: "sushi",
     moods: ["sleepy", "nervous", "relaxed", "cranky", "hopeful", "confused"]
 };
-$("#needy-button").click(function () {
 
+//this esentially controls everything about this lab, making the button react
+$("#needy-button").click(function () {
+//this part was added to make it stop going 'undefined'
+    if (count > 5) {
+        count = 0
+    }
     count = count + 1;
 
     let arrayPosition = count - 1;
@@ -25,3 +30,5 @@ $("#needy-button").click(function () {
     console.log(currentMood);
 
 });
+
+

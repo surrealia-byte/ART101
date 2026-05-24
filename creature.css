@@ -4,9 +4,6 @@
    margin: 50px;
 }
 
-#creature-form DIV {
-   margin-bottom: 20px;
-}
 
 #creature-list {
    display: flex;
@@ -15,14 +12,18 @@
    margin: 50px;
 }
 
+
+#creature-form DIV {
+   margin-bottom: 10px;
+}
+
 #creature-list>DIV {
-   background: pink;
-   width: 100px;
-   height: 100px;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
+
 
 .creature-body {
    background: pink;

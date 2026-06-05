@@ -75,3 +75,8 @@ img {
     color: #1d1184;
     font-weight: bold;
 }
+
+body {
+    background-image: url(pattern.gif);
+    background-size: 1500px;
+}

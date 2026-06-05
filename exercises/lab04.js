@@ -25,6 +25,7 @@ $("#needy-button").click(function () {
     message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
     $("#output").html(message);
 
+    //adds this info to the console log
     console.log(count);
     console.log(arrayPosition);
     console.log(currentMood);
